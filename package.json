@@ -1,0 +1,9 @@
+{
+  "name": "lott-cron-job",
+  "version": "0.0.0",
+  "description": "A cron job for storing the latest results of Australian lotteries",
+  "main": "src/index.js",
+  "repository": "https://github.com/benkim0414/lott-cron-job",
+  "author": "Gunwoo Ben Kim",
+  "license": "MIT"
+}
