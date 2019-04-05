@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# Google service account credentials
+lott-235905-firebase-adminsdk-3r2dq-894bd08555.json
