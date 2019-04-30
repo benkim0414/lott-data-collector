@@ -64,6 +64,7 @@ async function dateRangeSearch(startTime, endTime) {
     draw = renameKey(draw, 'drawNumber', 'id');
     draw = renameKey(draw, 'drawDate', 'date');
     unset(draw, 'ticketNumbers');
+    set(draw, 'date', admin.firestore.Timestamp.fromDate(new Date(draw.date)));
     return draw;
   });
 }
